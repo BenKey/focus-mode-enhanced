@@ -1,0 +1,42 @@
+/*
+Copyright 2023 Ben Key
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+#bottom-sheet-sensor,
+#bottom-wrapper,
+#c-col-editors-picks,
+#in-story-masthead,
+#site-index,
+#story > div.css-1r2mflq,
+#story > header > div.css-10cldcv,
+#story-ad-1-wrapper,
+#story-ad-2-wrapper,
+#story-ad-3-wrapper,
+#story-ad-4-wrapper,
+#story-ad-5-wrapper,
+#story-ad-6-wrapper,
+#story-ad-7-wrapper,
+#story-ad-8-wrapper,
+#story-ad-9-wrapper,
+#top-wrapper,
+aside,
+div.ad,
+div.NYTAppHideMasthead,
+div.related-links-block,
+div[role=toolbar],
+footer[role=contentinfo],
+section[role=complementary] {
+  display: none !important;
+}
