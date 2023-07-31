@@ -41,8 +41,14 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Microsoft-Learn.css': [
     'https://learn.microsoft.com'
   ],
+  'css/focus-mode-Quartz.css': [
+    'https://qz.com/'
+  ],
   'css/focus-mode-The-New-York-Times.css': [
     'https://www.nytimes.com/'
+  ],
+  'css/focus-mode-The-Register.css': [
+    'https://www.theregister.com/'
   ],
   'css/focus-mode-The-Washington-Post.css': [
     'https://www.washingtonpost.com/'
