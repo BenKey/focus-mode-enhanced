@@ -23,6 +23,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-C++-reference.css': [
     'https://en.cppreference.com/'
   ],
+  'css/focus-mode-CNET.css': [
+    'https://www.cnet.com/'
+  ],
   'css/focus-mode-Extension-Workshop.css': [
     'https://extensionworkshop.com/'
   ],

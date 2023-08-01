@@ -12,6 +12,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * The original Chrome Developers websites supported by the [Focus Mode][1] extension.
 * [C++ reference][5]
+* [CNET][19]
 * [Extension Workshop][6]
 * [GitHub][7]
 * [HackADay][8]
@@ -47,4 +48,5 @@ This extension licensed under the [Apache License Version 2.0][18].
 [15]: <https://www.theregister.com/>
 [16]: <https://www.washingtonpost.com/>
 [17]: <https://www.tpgi.com/>
-[18]: <http://www.apache.org/licenses/>
+[18]: <https://www.apache.org/licenses/LICENSE-2.0>
+[19]: <https://www.cnet.com/>
