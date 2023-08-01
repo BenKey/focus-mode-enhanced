@@ -29,6 +29,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-GitHub.css': [
     'https://github.com/'
   ],
+  'css/focus-mode-HackADay.css': [
+    'https://hackaday.com/'
+  ],
   'css/focus-mode-jQuery.css': [
     'https://api.jquery.com'
   ],
