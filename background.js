@@ -1,17 +1,19 @@
-// Copyright 2023 Ben Key
-// Portions Copyright 2022 Google LLC
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     https://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+/*
+Copyright 2023 Ben Key
+Portions Copyright 2022 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
 
 const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Chrome-Developers.css': [
@@ -40,6 +42,11 @@ const StylesheetToSupportWebsitesJSON = {
   ],
   'css/focus-mode-MDN.css': [
     'https://developer.mozilla.org/en-US/docs/'
+  ],
+  'css/focus-mode-Medium.css': [
+    'https://aninjusticemag.com/',
+    'https://eand.co/',
+    'https://medium.com/'
   ],
   'css/focus-mode-Microsoft-Developer-Blogs.css': [
     'https://devblogs.microsoft.com/'

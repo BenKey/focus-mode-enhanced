@@ -18,6 +18,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [HackADay][8]
 * [jQuery][9]
 * [MDN][10]
+* [Medium][20] and similar websites.
 * [Microsoft Developer Blogs][11]
 * [Microsoft Learn][12]
 * [Quartz][13]
@@ -50,3 +51,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [17]: <https://www.tpgi.com/>
 [18]: <https://www.apache.org/licenses/LICENSE-2.0>
 [19]: <https://www.cnet.com/>
+[20]: <https://medium.com/>
