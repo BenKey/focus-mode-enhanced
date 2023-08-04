@@ -11,14 +11,28 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 ## Supported Websites
 
 * The original Chrome Developers websites supported by the [Focus Mode][1] extension.
+
+   - [Chrome DevTools](https://developer.chrome.com/docs/devtools)
+   - [Chrome Web Store](https://developer.chrome.com/docs/webstore)
+   - [Extensions](https://developer.chrome.com/docs/extensions)
+   - [Web on Android](https://developer.chrome.com/docs/android/)
+   - [Workbox](https://developer.chrome.com/docs/workbox)
+
 * [C++ reference][5]
 * [CNET][19]
+* [Digg][21]
 * [Extension Workshop][6]
 * [GitHub][7]
 * [HackADay][8]
 * [jQuery][9]
 * [MDN][10]
 * [Medium][20] and similar websites.
+
+  - [An Injustice!](https://aninjusticemag.com/)
+  - [Eudaimonia](https://eand.co/)
+  - [Medium](https://medium.com/)
+  - [UX Collective](https://uxdesign.cc/)
+
 * [Microsoft Developer Blogs][11]
 * [Microsoft Learn][12]
 * [Quartz][13]
@@ -52,3 +66,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [18]: <https://www.apache.org/licenses/LICENSE-2.0>
 [19]: <https://www.cnet.com/>
 [20]: <https://medium.com/>
+[21]: <https://digg.com/>

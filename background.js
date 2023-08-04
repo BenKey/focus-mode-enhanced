@@ -28,6 +28,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-CNET.css': [
     'https://www.cnet.com/'
   ],
+  'css/focus-mode-Digg.css': [
+    'https://digg.com/'
+  ],
   'css/focus-mode-Extension-Workshop.css': [
     'https://extensionworkshop.com/'
   ],
@@ -46,7 +49,8 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Medium.css': [
     'https://aninjusticemag.com/',
     'https://eand.co/',
-    'https://medium.com/'
+    'https://medium.com/',
+    'https://uxdesign.cc/'
   ],
   'css/focus-mode-Microsoft-Developer-Blogs.css': [
     'https://devblogs.microsoft.com/'
