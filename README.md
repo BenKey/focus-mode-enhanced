@@ -37,6 +37,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Microsoft Learn][12]
 * [Quartz][13]
 * [Quora][22]
+* [The Fantasy Review][23]
 * [The New York Times][14]
 * [The Register][15]
 * [The Washington Post][16]
@@ -69,3 +70,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [20]: <https://medium.com/>
 [21]: <https://digg.com/>
 [22]: <https://www.quora.com/>
+[23]: <https://thefantasyreviews.com/>
