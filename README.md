@@ -22,7 +22,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [CNET][19]
 * [Digg][21]
 * [Extension Workshop][6]
-* [Freedom-Scientific][24]
+* [Freedom Scientific][24]
 * [GitHub][7]
 * [HackADay][8]
 * [jQuery][9]
