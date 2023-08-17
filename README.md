@@ -22,6 +22,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [CNET][19]
 * [Digg][21]
 * [Extension Workshop][6]
+* [Freedom-Scientific][24]
 * [GitHub][7]
 * [HackADay][8]
 * [jQuery][9]
@@ -71,3 +72,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [21]: <https://digg.com/>
 [22]: <https://www.quora.com/>
 [23]: <https://thefantasyreviews.com/>
+[24]: <https://www.freedomscientific.com/>

@@ -34,6 +34,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Extension-Workshop.css': [
     'https://extensionworkshop.com/'
   ],
+  'css/focus-mode-Freedom-Scientific.css': [
+    'https://www.freedomscientific.com/'
+  ],
   'css/focus-mode-GitHub.css': [
     'https://github.com/'
   ],
