@@ -14,20 +14,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+div.comment_and_ad_container,
+div.dom_annotate_feed_switcher,
 div.dom_annotate_multifeed_bundle_AdBundle,
 div.dom_annotate_multifeed_bundle_AnswersBundle,
 div.dom_annotate_multifeed_bundle_ExploreAnswerBundle,
+div.dom_annotate_multifeed_bundle_ExplorePostBundle,
 div.dom_annotate_multifeed_bundle_PostBundle,
 div.dom_annotate_multifeed_bundle_QuestionsBundle,
 div.dom_annotate_multifeed_bundle_TribeSuggestionsBundle,
-div.puppeteer_test_tribe_post_item_feed_story,
+div.q-box > div.qu-justifyContent--center,
 div.qu-flexDirection--column,
+div.qu-pb--medium,
 div.qu-zIndex--action_bar,
-html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2),
-html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:first-of-type,
-html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2),
-html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div > div:first-of-type > div > div:nth-of-type(3),
-html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div > div:not(:first-of-type),
-html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) {
+div.qu-zIndex--header {
   display: none !important;
 }
