@@ -18,6 +18,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Web on Android](https://developer.chrome.com/docs/android/)
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
+* [Ars Technica][25]
 * [C++ reference][5]
 * [CNET][19]
 * [Digg][21]
@@ -73,3 +74,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [22]: <https://www.quora.com/>
 [23]: <https://thefantasyreviews.com/>
 [24]: <https://www.freedomscientific.com/>
+[25]: <https://arstechnica.com/>

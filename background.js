@@ -22,6 +22,9 @@ const StylesheetToSupportWebsitesJSON = {
     'https://developer.chrome.com/docs/webstore',
     'https://developer.chrome.com/docs/workbox'
   ],
+  'css/focus-mode-Ars-Technica.css': [
+    'https://arstechnica.com/'
+  ],
   'css/focus-mode-C++-reference.css': [
     'https://en.cppreference.com/'
   ],
