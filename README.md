@@ -39,6 +39,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Microsoft Learn][12]
 * [Quartz][13]
 * [Quora][22]
+* [Scientific American][26]
 * [The Fantasy Review][23]
 * [The New York Times][14]
 * [The Register][15]
@@ -75,3 +76,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [23]: <https://thefantasyreviews.com/>
 [24]: <https://www.freedomscientific.com/>
 [25]: <https://arstechnica.com/>
+[26]: <https://www.scientificamerican.com/>

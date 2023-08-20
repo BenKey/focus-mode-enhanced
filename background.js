@@ -70,6 +70,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Quora.css': [
     'https://www.quora.com/'
   ],
+  'css/focus-mode-Scientific-American.css': [
+    'https://www.scientificamerican.com/'
+  ],
   'css/focus-mode-The-Fantasy-Review.css': [
     'https://thefantasyreviews.com/'
   ],
