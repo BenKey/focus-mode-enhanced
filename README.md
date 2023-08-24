@@ -18,6 +18,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Web on Android](https://developer.chrome.com/docs/android/)
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
+* [AccuWeather][27]
 * [Ars Technica][25]
 * [C++ reference][5]
 * [CNET][19]
@@ -77,3 +78,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [24]: <https://www.freedomscientific.com/>
 [25]: <https://arstechnica.com/>
 [26]: <https://www.scientificamerican.com/>
+[27]: <https://www.accuweather.com/en/us/>
