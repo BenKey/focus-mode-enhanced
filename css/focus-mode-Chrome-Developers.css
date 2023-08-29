@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-body > .scaffold > :is(top-nav, navigation-rail, side-nav, footer),
+body > .scaffold > :is(footer, navigation-rail, side-nav, top-nav),
 main > :not(:last-child),
 main > :last-child > navigation-tree,
 main .toc-container {

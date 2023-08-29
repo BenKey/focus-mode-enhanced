@@ -22,6 +22,9 @@ const StylesheetToSupportWebsitesJSON = {
     'https://developer.chrome.com/docs/webstore',
     'https://developer.chrome.com/docs/workbox'
   ],
+  'css/focus-mode-Chrome-Developers-Blog.css': [
+    'https://developer.chrome.com/blog/'
+  ],
   'css/focus-mode-AccuWeather.css': [
     'https://www.accuweather.com/en/us/'
   ],
