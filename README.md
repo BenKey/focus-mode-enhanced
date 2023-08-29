@@ -41,6 +41,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Quartz][13]
 * [Quora][22]
 * [Scientific American][26]
+* [Slashdow][28] (Includes subdomains)
 * [The Fantasy Review][23]
 * [The New York Times][14]
 * [The Register][15]
@@ -79,3 +80,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [25]: <https://arstechnica.com/>
 [26]: <https://www.scientificamerican.com/>
 [27]: <https://www.accuweather.com/en/us/>
+[28]: <https://slashdot.org/>

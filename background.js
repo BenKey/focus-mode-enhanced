@@ -76,6 +76,10 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Scientific-American.css': [
     'https://www.scientificamerican.com/'
   ],
+  'css/focus-mode-Slashdot.css': [
+    'https://slashdot.org/',
+    /https:\/\/.*\.slashdot.org\/story\//
+  ],
   'css/focus-mode-The-Fantasy-Review.css': [
     'https://thefantasyreviews.com/'
   ],
@@ -102,6 +106,10 @@ function IsString(variable) {
   return (typeof(variable) === 'string' || variable instanceof String);
 }
 
+function IsRegExp(variable) {
+  return (variable instanceof RegExp);
+}
+
 function StringIsNullOrEmpty(str) {
   if (IsInvalid(str)) {
     return true;
@@ -118,13 +126,32 @@ function StringIsNullOrEmpty(str) {
   return false;
 }
 
+function Matches(url, test) {
+  if (IsRegExp(test)) {
+    const found = url.match(test);
+    return (found != null);
+  }
+  if (!IsString(test)) {
+    return false;
+  }
+  if (url.startsWith(test)) {
+    return true;
+  }
+  const indexOfAsterisk = test.indexOf('*');
+  if (indexOfAsterisk == -1) {
+    return false;
+  }
+  const found = url.match(test);
+  return (found != null);
+}
+
 function GetStylesheet(url) {
   if (StringIsNullOrEmpty(url)) {
     return '';
   }
   let foundStylesheet = '';
   for (const [Stylesheet, Websites] of StylesheetToSupportWebsitesMap) {
-    const filteredWebsites = Websites.filter(str => url.startsWith(str));
+    const filteredWebsites = Websites.filter(test => Matches(url, test));
     if (filteredWebsites.length != 0) {
       foundStylesheet = Stylesheet;
       break;
@@ -133,20 +160,15 @@ function GetStylesheet(url) {
   return foundStylesheet;
 }
 
-function IsSupportedWebsite(url) {
-  const stylesheet = GetStylesheet(url);
-  return !StringIsNullOrEmpty(stylesheet);
-}
-
 async function ChromeActionOnClicked(tab) {
   const methodName = 'ChromeActionOnClicked';
   const url = tab.url;
-  const isSupported = IsSupportedWebsite(url);
+  const stylesheet = GetStylesheet(url);
+  const isSupported = !StringIsNullOrEmpty(stylesheet);
   console.debug(`${methodName} Status: isSupported is ${isSupported}.`);
   if (!isSupported) {
     return;
   }
-  const stylesheet = GetStylesheet(url);
   console.debug(`${methodName} Status: stylesheet is ${stylesheet}.`);
   /* We retrieve the action badge to check if the extension is 'ON' or 'OFF'. */
   const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
