@@ -48,6 +48,8 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [The Register][15]
 * [The Washington Post][16]
 * [TPGi][17]
+* [WikiBooks][31]
+* [Wikipedia][30]
 
 ## License
 
@@ -83,3 +85,5 @@ This extension licensed under the [Apache License Version 2.0][18].
 [27]: <https://www.accuweather.com/en/us/>
 [28]: <https://slashdot.org/>
 [29]: <https://developer.chrome.com/blog/>
+[30]: <https://en.wikipedia.org/wiki/>
+[31]: <https://en.wikibooks.org/wiki/>

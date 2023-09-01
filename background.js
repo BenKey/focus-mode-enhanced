@@ -97,6 +97,12 @@ const StylesheetToSupportWebsitesJSON = {
   ],
   'css/focus-mode-TPGi.css': [
     'https://www.tpgi.com/'
+  ],
+  'css/focus-mode-WikiBooks.css': [
+    'https://en.wikibooks.org/wiki/'
+  ],
+  'css/focus-mode-Wikipedia.css': [
+    'https://en.wikipedia.org/wiki/'
   ]
 };
 const StylesheetToSupportWebsitesMap = new Map(Object.entries(StylesheetToSupportWebsitesJSON));

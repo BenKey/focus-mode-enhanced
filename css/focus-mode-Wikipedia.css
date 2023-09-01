@@ -1,0 +1,46 @@
+/*
+Copyright 2023 Ben Key
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+.noprint,
+#Footnotes,
+#Further_reading,
+#References,
+div.catlinks,
+div.mw-footer-container,
+div.mw-portlet-lang,
+div.navbox-styles,
+div.navbox,
+div.refbegin,
+div.reflist,
+div.vector-body-before-content,
+div.vector-column-end,
+div.vector-header-container,
+div.vector-main-menu-container,
+div.vector-page-toolbar,
+div.vector-settings,
+div.vector-sitenotice-container,
+figure.mw-default-size,
+nav.mw-table-of-contents-container,
+span.mw-editsection,
+sup.reference,
+table.infobox,
+table.wikitable.floatright {
+  display: none !important;
+}
+
+div.mw-page-container-inner,
+main.mw-body {
+  display: block !important;
+}
