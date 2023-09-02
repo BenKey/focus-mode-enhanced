@@ -19,7 +19,13 @@ limitations under the License.
 #footer,
 #headerAreaHolder,
 #left-container,
+#ms--additional-resources,
 #side-doc-outline,
-#user-feedback {
+#user-feedback,
+section.feedback-section {
   display: none !important;
+}
+
+#main-column {
+  width: 100% !important;
 }
