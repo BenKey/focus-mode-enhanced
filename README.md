@@ -19,6 +19,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
 * [Chrome Developers Blog][29]
+* [Gmail][32]
 * [AccuWeather][27]
 * [Ars Technica][25]
 * [C++ reference][5]
@@ -87,3 +88,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [29]: <https://developer.chrome.com/blog/>
 [30]: <https://en.wikipedia.org/wiki/>
 [31]: <https://en.wikibooks.org/wiki/>
+[32]: <https://mail.google.com/mail/>
