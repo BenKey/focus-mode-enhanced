@@ -25,6 +25,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Chrome-Developers-Blog.css': [
     'https://developer.chrome.com/blog/'
   ],
+  'css/focus-mode-CNN.css': [
+    'https://www.cnn.com/'
+  ],
   'css/focus-mode-Gmail.css': [
     /https:\/\/mail\.google\.com\/mail\/u.*\?.*#inbox/
   ],

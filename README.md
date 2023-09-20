@@ -24,6 +24,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Ars Technica][25]
 * [C++ reference][5]
 * [CNET][19]
+* [CNN][34]
 * [Digg][21]
 * [Extension Workshop][6]
 * [Freedom Scientific][24]
@@ -91,3 +92,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [31]: <https://en.wikibooks.org/wiki/>
 [32]: <https://mail.google.com/mail/>
 [33]: <https://www.neowin.net/>
+[34]: <https://www.cnn.com/>

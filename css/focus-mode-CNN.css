@@ -14,24 +14,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-aside.related-news,
-div.ad,
-div.article-share,
-div.article-tags,
-div.comments,
-div.footer-banner-ads,
-div.footer-banner,
-div.fs-dynamic,
-div.fs-sticky-footer,
-div.header-banner-ads,
-div.header-banner,
-div.nav-secondary-menu-container,
-div.post-nav,
-div.promos,
-div.sidebar-col,
-div[name='neowin_inarticle_dynamic'],
-div#FreeStarVideoAdContainer,
-footer.footer,
-header.site-header {
+div.article__lede-wrapper,
+div.bx-creative,
+div.headline__options,
+div.layout__bottom,
+div.related-content--article,
+div.related-content,
+header.header__wrapper-outer,
+iframe#teads-native-iframe,
+section.layout__end,
+section.layout__rail {
   display: none !important;
 }
