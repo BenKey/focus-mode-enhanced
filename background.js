@@ -73,6 +73,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Microsoft-Learn.css': [
     'https://learn.microsoft.com'
   ],
+  'css/focus-mode-Neowin.css': [
+    'https://www.neowin.net/'
+  ],
   'css/focus-mode-Quartz.css': [
     'https://qz.com/'
   ],

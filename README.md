@@ -40,6 +40,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * [Microsoft Developer Blogs][11]
 * [Microsoft Learn][12]
+* [Neowin][33]
 * [Quartz][13]
 * [Quora][22]
 * [Scientific American][26]
@@ -89,3 +90,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [30]: <https://en.wikipedia.org/wiki/>
 [31]: <https://en.wikibooks.org/wiki/>
 [32]: <https://mail.google.com/mail/>
+[33]: <https://www.neowin.net/>
