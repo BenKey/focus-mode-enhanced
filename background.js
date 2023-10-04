@@ -98,6 +98,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-The-New-York-Times.css': [
     'https://www.nytimes.com/'
   ],
+  'css/focus-mode-The-New-Yorker.css': [
+    'https://www.newyorker.com/'
+  ],
   'css/focus-mode-The-Register.css': [
     'https://www.theregister.com/'
   ],

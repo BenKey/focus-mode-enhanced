@@ -48,6 +48,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Slashdow][28] (Includes subdomains)
 * [The Fantasy Review][23]
 * [The New York Times][14]
+* [The New Yorker][35]
 * [The Register][15]
 * [The Washington Post][16]
 * [TPGi][17]
@@ -93,3 +94,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [32]: <https://mail.google.com/mail/>
 [33]: <https://www.neowin.net/>
 [34]: <https://www.cnn.com/>
+[35]: <https://www.newyorker.com/>
