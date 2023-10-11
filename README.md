@@ -20,6 +20,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * [Chrome Developers Blog][29]
 * [Gmail][32]
+* [Code Project][36]
 * [AccuWeather][27]
 * [Ars Technica][25]
 * [C++ reference][5]
@@ -95,3 +96,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [33]: <https://www.neowin.net/>
 [34]: <https://www.cnn.com/>
 [35]: <https://www.newyorker.com/>
+[36]: <https://www.codeproject.com/>
