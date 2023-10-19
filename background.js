@@ -86,14 +86,15 @@ const StylesheetToSupportWebsitesJSON = {
     'https://qz.com/'
   ],
   'css/focus-mode-Quora.css': [
-    'https://www.quora.com/'
+    'https://www.quora.com/',
+    /https:\/\/.*\.quora\.com\//
   ],
   'css/focus-mode-Scientific-American.css': [
     'https://www.scientificamerican.com/'
   ],
   'css/focus-mode-Slashdot.css': [
     'https://slashdot.org/',
-    /https:\/\/.*\.slashdot.org\/story\//
+    /https:\/\/.*\.slashdot\.org\/story\//
   ],
   'css/focus-mode-The-Fantasy-Review.css': [
     'https://thefantasyreviews.com/'
@@ -118,6 +119,12 @@ const StylesheetToSupportWebsitesJSON = {
   ],
   'css/focus-mode-Wikipedia.css': [
     'https://en.wikipedia.org/wiki/'
+  ],
+  'css/focus-mode-Word-Daily.css': [
+    'https://worddaily.com/'
+  ],
+  'css/focus-mode-Word-Genius.css': [
+    'https://www.wordgenius.com/'
   ]
 };
 const StylesheetToSupportWebsitesMap = new Map(Object.entries(StylesheetToSupportWebsitesJSON));

@@ -55,6 +55,8 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [TPGi][17]
 * [WikiBooks][31]
 * [Wikipedia][30]
+* [Word Daily][37]
+* [Word Genius][38]
 
 ## License
 
@@ -97,3 +99,5 @@ This extension licensed under the [Apache License Version 2.0][18].
 [34]: <https://www.cnn.com/>
 [35]: <https://www.newyorker.com/>
 [36]: <https://www.codeproject.com/>
+[37]: <https://worddaily.com/>
+[38]: <https://www.wordgenius.com/>
