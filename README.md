@@ -42,6 +42,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * [Microsoft Developer Blogs][11]
 * [Microsoft Learn][12]
+* [NBC News][39]
 * [Neowin][33]
 * [Quartz][13]
 * [Quora][22]
@@ -101,3 +102,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [36]: <https://www.codeproject.com/>
 [37]: <https://worddaily.com/>
 [38]: <https://www.wordgenius.com/>
+[39]: <https://www.nbcnews.com/news/us-news/>
