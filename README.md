@@ -44,6 +44,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Microsoft Learn][12]
 * [NBC News][39]
 * [Neowin][33]
+* [PCWorld][40]
 * [Quartz][13]
 * [Quora][22]
 * [Scientific American][26]
@@ -103,3 +104,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [37]: <https://worddaily.com/>
 [38]: <https://www.wordgenius.com/>
 [39]: <https://www.nbcnews.com/news/us-news/>
+[40]: <https://www.pcworld.com/article/>

@@ -85,6 +85,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Neowin.css': [
     'https://www.neowin.net/'
   ],
+  'css/focus-mode-PCWorld.css': [
+    'https://www.pcworld.com/article/'
+  ],
   'css/focus-mode-Quartz.css': [
     'https://qz.com/'
   ],
