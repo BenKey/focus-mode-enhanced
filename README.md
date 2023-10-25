@@ -48,7 +48,8 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Quartz][13]
 * [Quora][22]
 * [Scientific American][26]
-* [Slashdow][28] (Includes subdomains)
+* [Slashdot][28] (Includes subdomains)
+* [Stack Exchange][41] (and related websites)
 * [The Fantasy Review][23]
 * [The New York Times][14]
 * [The New Yorker][35]
@@ -105,3 +106,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [38]: <https://www.wordgenius.com/>
 [39]: <https://www.nbcnews.com/news/us-news/>
 [40]: <https://www.pcworld.com/article/>
+[41]: <https://stackexchange.com/>

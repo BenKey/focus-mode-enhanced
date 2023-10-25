@@ -102,6 +102,12 @@ const StylesheetToSupportWebsitesJSON = {
     'https://slashdot.org/',
     /https:\/\/.*\.slashdot\.org\/story\//
   ],
+  'css/focus-mode-Stack-Exchange.css': [
+    'https://askubuntu.com/',
+    'https://stackoverflow.com/',
+    'https://superuser.com/',
+    /https:\/\/.*\.stackexchange.com\//
+  ],
   'css/focus-mode-The-Fantasy-Review.css': [
     'https://thefantasyreviews.com/'
   ],
