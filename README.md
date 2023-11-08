@@ -27,6 +27,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [CNET][19]
 * [CNN][34]
 * [Digg][21]
+* [EFF][42]
 * [Extension Workshop][6]
 * [Freedom Scientific][24]
 * [GitHub][7]
@@ -107,3 +108,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [39]: <https://www.nbcnews.com/news/us-news/>
 [40]: <https://www.pcworld.com/article/>
 [41]: <https://stackexchange.com/>
+[42]: <https://www.eff.org/>

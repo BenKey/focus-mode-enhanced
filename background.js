@@ -31,6 +31,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-CNN.css': [
     'https://www.cnn.com/'
   ],
+  'css/focus-mode-EFF.css': [
+    'https://www.eff.org/'
+  ],
   'css/focus-mode-Gmail.css': [
     /https:\/\/mail\.google\.com\/mail\/u.*\?.*#inbox/
   ],
