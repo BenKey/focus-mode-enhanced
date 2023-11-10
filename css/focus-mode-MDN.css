@@ -18,7 +18,9 @@ limitations under the License.
 #root > div > div.main-document-header-container,
 #root > div > div.main-wrapper > div > div > section.side,
 #root > div > div.main-wrapper > div > div.toc-container,
+#root > div > div.sticky-header-container,
 #root > div > div.top-banner,
-#sidebar-quicklinks {
+#sidebar-quicklinks,
+aside.metadata {
   display: none !important;
 }
