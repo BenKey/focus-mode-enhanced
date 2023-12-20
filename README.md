@@ -26,6 +26,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [C++ reference][5]
 * [CNET][19]
 * [CNN][34]
+* [dictionary.com][44]
 * [Digg][21]
 * [EFF][42]
 * [Extension Workshop][6]
@@ -56,6 +57,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [The New Yorker][35]
 * [The Register][15]
 * [The Washington Post][16]
+* [thesaurus.com][43]
 * [TPGi][17]
 * [WikiBooks][31]
 * [Wikipedia][30]
@@ -109,3 +111,5 @@ This extension licensed under the [Apache License Version 2.0][18].
 [40]: <https://www.pcworld.com/article/>
 [41]: <https://stackexchange.com/>
 [42]: <https://www.eff.org/>
+[43]: <https://www.thesaurus.com/>
+[44]: <https://www.dictionary.com/>
