@@ -18,6 +18,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Web on Android](https://developer.chrome.com/docs/android/)
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
+* [Audible][45]
 * [Chrome Developers Blog][29]
 * [Gmail][32]
 * [Code Project][36]
@@ -113,3 +114,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [42]: <https://www.eff.org/>
 [43]: <https://www.thesaurus.com/>
 [44]: <https://www.dictionary.com/>
+[45]: <https://www.audible.com/>
