@@ -221,11 +221,11 @@ async function ChromeActionOnClicked(tab) {
   const url = tab.url;
   const stylesheet = GetStylesheet(url);
   const isSupported = !StringIsNullOrEmpty(stylesheet);
-  console.debug(`${methodName} Status: isSupported is ${isSupported}.`);
+  console.debug(`${methodName} Status: url is '${url}'; isSupported is ${isSupported}.`);
   if (!isSupported) {
     return;
   }
-  console.debug(`${methodName} Status: stylesheet is ${stylesheet}.`);
+  console.debug(`${methodName} Status: stylesheet is '${stylesheet}'.`);
   /* We retrieve the action badge to check if the extension is 'ON' or 'OFF'. */
   const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
   /* Next state will always be the opposite. */
