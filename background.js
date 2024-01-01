@@ -125,6 +125,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-The-Fantasy-Review.css': [
     'https://thefantasyreviews.com/'
   ],
+  'css/focus-mode-The-Guardian.css': [
+    'https://www.theguardian.com/'
+  ],
   'css/focus-mode-The-New-York-Times.css': [
     'https://www.nytimes.com/'
   ],

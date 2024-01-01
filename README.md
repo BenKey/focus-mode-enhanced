@@ -55,6 +55,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Slashdot][28] (Includes subdomains)
 * [Stack Exchange][41] (and related websites)
 * [The Fantasy Review][23]
+* [The Guardian][47]
 * [The New York Times][14]
 * [The New Yorker][35]
 * [The Register][15]
@@ -117,3 +118,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [44]: <https://www.dictionary.com/>
 [45]: <https://www.audible.com/>
 [46]: <https://www.reuters.com/>
+[47]: <https://www.theguardian.com/>
