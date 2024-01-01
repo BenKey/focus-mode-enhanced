@@ -81,7 +81,8 @@ const StylesheetToSupportWebsitesJSON = {
     'https://aninjusticemag.com/',
     'https://eand.co/',
     'https://medium.com/',
-    'https://uxdesign.cc/'
+    'https://uxdesign.cc/',
+    /https:\/\/.*\.medium\.com\//
   ],
   'css/focus-mode-Microsoft-Developer-Blogs.css': [
     'https://devblogs.microsoft.com/'
