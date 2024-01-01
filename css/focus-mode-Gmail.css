@@ -17,7 +17,8 @@ limitations under the License.
 div.aeH,
 div[jsaction="CyXzrf:.CLIENT"],
 div[jsaction="rcuQ6b:npT2md"],
-div[role=navigation],
-header[role=banner] {
+div[role="complementary"],
+div[role="navigation"],
+header[role="banner"] {
   display: none !important;
 }

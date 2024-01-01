@@ -38,7 +38,7 @@ const StylesheetToSupportWebsitesJSON = {
     'https://www.eff.org/'
   ],
   'css/focus-mode-Gmail.css': [
-    /https:\/\/mail\.google\.com\/mail\/u.*\?.*#inbox/
+    'https://mail.google.com/mail/'
   ],
   'css/focus-mode-AccuWeather.css': [
     'https://www.accuweather.com/en/us/'
