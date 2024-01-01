@@ -50,6 +50,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [PCWorld][40]
 * [Quartz][13]
 * [Quora][22]
+* [Reuters][46]
 * [Scientific American][26]
 * [Slashdot][28] (Includes subdomains)
 * [Stack Exchange][41] (and related websites)
@@ -115,3 +116,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [43]: <https://www.thesaurus.com/>
 [44]: <https://www.dictionary.com/>
 [45]: <https://www.audible.com/>
+[46]: <https://www.reuters.com/>
