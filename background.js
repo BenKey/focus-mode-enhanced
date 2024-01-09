@@ -209,7 +209,7 @@ function GetStylesheet(url) {
   if (StringIsNullOrEmpty(url)) {
     return '';
   }
-  let foundStylesheet = '';
+  let foundStylesheet = 'css/focus-mode-Default.css';
   for (const [Stylesheet, Websites] of StylesheetToSupportWebsitesMap) {
     const filteredWebsites = Websites.filter(test => Matches(url, test));
     if (filteredWebsites.length != 0) {
