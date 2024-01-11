@@ -80,6 +80,7 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Medium.css': [
     'https://aninjusticemag.com/',
     'https://eand.co/',
+    'https://levelup.gitconnected.com/',
     'https://medium.com/',
     'https://uxdesign.cc/',
     /https:\/\/.*\.medium\.com\//
