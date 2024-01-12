@@ -40,6 +40,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
   - [An Injustice!](https://aninjusticemag.com/)
   - [Eudaimonia](https://eand.co/)
+  - [Level Up Coding](https://levelup.gitconnected.com/)
   - [Medium](https://medium.com/)
   - [UX Collective](https://uxdesign.cc/)
 

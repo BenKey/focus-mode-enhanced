@@ -18,13 +18,15 @@ limitations under the License.
 .hide-for-print,
 .print-hidden,
 aside[class*="sidebar-right"],
-footer.main-footer,
-footer.mainFooter,
-footer.site-footer,
-footer.siteFooter,
-header.main-header,
-header.mainHeader,
-header.site-header,
-header.siteHeader {
+div.Ad__topBanner,
+div.Ad,
+div.navbar,
+div[class*="promo"],
+div[class*="share"],
+div[role="contentinfo"],
+div[role="navigation"],
+footer,
+header,
+nav {
   display: none !important;
 }
