@@ -15,6 +15,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+'use strict';
+
+if (typeof browser == "undefined") {
+  // Chrome does not support the browser namespace yet.
+  globalThis.browser = chrome;
+}
+
 const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Audible.css': [
     'https://www.audible.com/'
@@ -232,24 +239,24 @@ async function ChromeActionOnClicked(tab) {
   }
   console.debug(`${methodName} Status: stylesheet is '${stylesheet}'.`);
   /* We retrieve the action badge to check if the extension is 'ON' or 'OFF'. */
-  const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
+  const prevState = await browser.action.getBadgeText({ tabId: tab.id });
   /* Next state will always be the opposite. */
   const nextState = prevState === 'ON' ? 'OFF' : 'ON';
   /* Set the action badge to the next state. */
-  await chrome.action.setBadgeText({
+  await browser.action.setBadgeText({
     tabId: tab.id,
     text: nextState
   });
   switch(nextState){
     case 'ON': {
-      await chrome.scripting.insertCSS({
+      await browser.scripting.insertCSS({
         files: [stylesheet],
         target: { tabId: tab.id }
       });
       break;
     }
     case 'OFF': {
-      await chrome.scripting.removeCSS({
+      await browser.scripting.removeCSS({
         files: [stylesheet],
         target: { tabId: tab.id }
       });
@@ -258,11 +265,11 @@ async function ChromeActionOnClicked(tab) {
   }
 }
 
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.action.setBadgeText({
+browser.runtime.onInstalled.addListener(() => {
+  browser.action.setBadgeText({
     text: 'OFF'
   });
 });
 
 /* When the user clicks on the extension action. */
-chrome.action.onClicked.addListener(ChromeActionOnClicked);
+browser.action.onClicked.addListener(ChromeActionOnClicked);

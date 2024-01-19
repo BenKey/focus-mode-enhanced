@@ -15,18 +15,34 @@ limitations under the License.
 */
 
 .dn-print,
+.hidden-print,
 .hide-for-print,
 .print-hidden,
 aside[class*="sidebar-right"],
 div.Ad__topBanner,
 div.Ad,
+div.block-fusion-ads,
 div.navbar,
+div.page-sidebar,
+div.teads-player,
+div[class*="-ad-"],
+div[class*="conversation"],
+div[class*="fairness"],
+div[class*="footer"],
+div[class*="ibtmedia"],
 div[class*="promo"],
+div[class*="read-more"],
 div[class*="share"],
+div[class*="subscription"],
 div[role="contentinfo"],
 div[role="navigation"],
 footer,
 header,
-nav {
+iframe[id*="google_ads_iframe"],
+iframe[id*="teads-native-iframe"],
+nav,
+section.topics-list,
+section[class*="fairness"],
+section[class*="newsletter"] {
   display: none !important;
 }
