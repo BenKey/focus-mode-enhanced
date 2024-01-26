@@ -49,6 +49,8 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [NBC News][39]
 * [Neowin][33]
 * [PCWorld][40]
+* [Pocket Read][49]
+* [Pocket Saves][48]
 * [Quartz][13]
 * [Quora][22]
 * [Reuters][46]
@@ -120,3 +122,5 @@ This extension licensed under the [Apache License Version 2.0][18].
 [45]: <https://www.audible.com/>
 [46]: <https://www.reuters.com/>
 [47]: <https://www.theguardian.com/>
+[48]: <https://getpocket.com/saves>
+[49]: <https://getpocket.com/read>

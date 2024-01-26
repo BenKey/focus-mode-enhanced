@@ -107,6 +107,12 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-PCWorld.css': [
     'https://www.pcworld.com/article/'
   ],
+  'css/focus-mode-Pocket-Read.css': [
+    'https://getpocket.com/read'
+  ],
+  'css/focus-mode-Pocket-Saves.css': [
+    'https://getpocket.com/saves'
+  ],
   'css/focus-mode-Quartz.css': [
     'https://qz.com/'
   ],
