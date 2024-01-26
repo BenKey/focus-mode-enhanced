@@ -21,6 +21,7 @@ limitations under the License.
 #root > div > div.sticky-header-container,
 #root > div > div.top-banner,
 #sidebar-quicklinks,
-aside.metadata {
+aside.metadata,
+div.bottom-banner-container {
   display: none !important;
 }
