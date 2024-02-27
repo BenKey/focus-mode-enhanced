@@ -46,6 +46,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * [Microsoft Developer Blogs][11]
 * [Microsoft Learn][12]
+* [MSN News][50]
 * [NBC News][39]
 * [Neowin][33]
 * [PCWorld][40]
@@ -124,3 +125,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [47]: <https://www.theguardian.com/>
 [48]: <https://getpocket.com/saves>
 [49]: <https://getpocket.com/read>
+[50]: <https://www.msn.com/en-us/news/>

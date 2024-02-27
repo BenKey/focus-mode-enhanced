@@ -98,6 +98,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Microsoft-Learn.css': [
     'https://learn.microsoft.com'
   ],
+  'css/focus-mode-MSN-News.css': [
+    'https://www.msn.com/en-us/news/'
+  ],
   'css/focus-mode-NBC-News.css': [
     'https://www.nbcnews.com/news/us-news/'
   ],
