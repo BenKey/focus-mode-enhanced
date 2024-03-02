@@ -21,7 +21,12 @@
   },
   "author": "ben.key@yekneb.com",
   "background": {
-    "service_worker": "background.js"
+     "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{F7B9D587-80DE-4FED-B310-27F9E47BEA10}"
+    }
   },
   "commands": {
     "_execute_action": {
@@ -32,6 +37,5 @@
     }
   },
   "homepage_url": "https://github.com/BenKey/focus-mode-enhanced",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjPfZNyx4m9ovh587YD4ym7GmNvzL+17YHk85r1Y0G6svTxRjokbf6LL/bq+ZcwEfxnukZQ998W45Hu70dgyb4HM9NRx241zpQcPPqLQ/nIO70wiR3Noi1DRmstGgm4KCAOYCg0TAYnRIy79gcCJ6QqSJBieripYXhho6Sp9LLA5hkD4DxdV6Luo3kxDMVCP0MqnjvZYWxKS8jROuFn+DwZbab+Vo8LE2M7oI6Tl37+vdWatrPNn1YjD1vqBfmS56DX9t4aA3mWbd8evLdv9FEc1J9Ilfkkf1kSu+KcVxCIuFR5sIvNt/YFHFM/lTyVrULhraGmcXuUuQRHO2YL+BwIDAQAB",
   "permissions": ["scripting", "activeTab"]
 }
