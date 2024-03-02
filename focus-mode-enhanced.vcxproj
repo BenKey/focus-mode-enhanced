@@ -40,11 +40,67 @@
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="background.js" />
+    <None Include="css\focus-mode-AccuWeather.css" />
+    <None Include="css\focus-mode-Ars-Technica.css" />
+    <None Include="css\focus-mode-Audible.css" />
+    <None Include="css\focus-mode-C++-reference.css" />
+    <None Include="css\focus-mode-Chrome-Developers-Blog.css" />
+    <None Include="css\focus-mode-Chrome-Developers.css" />
+    <None Include="css\focus-mode-CNET.css" />
+    <None Include="css\focus-mode-CNN.css" />
+    <None Include="css\focus-mode-Code-Project.css" />
+    <None Include="css\focus-mode-Default.css" />
+    <None Include="css\focus-mode-Dictionary-And-Thesaurus.css" />
+    <None Include="css\focus-mode-Digg.css" />
+    <None Include="css\focus-mode-EFF.css" />
+    <None Include="css\focus-mode-Extension-Workshop.css" />
+    <None Include="css\focus-mode-Freedom-Scientific.css" />
+    <None Include="css\focus-mode-GitHub.css" />
+    <None Include="css\focus-mode-Gmail.css" />
+    <None Include="css\focus-mode-HackADay.css" />
+    <None Include="css\focus-mode-jQuery.css" />
+    <None Include="css\focus-mode-MDN.css" />
+    <None Include="css\focus-mode-Medium.css" />
+    <None Include="css\focus-mode-Microsoft-Developer-Blogs.css" />
+    <None Include="css\focus-mode-Microsoft-Learn.css" />
+    <None Include="css\focus-mode-MSN-News.css" />
+    <None Include="css\focus-mode-NBC-News.css" />
+    <None Include="css\focus-mode-Neowin.css" />
+    <None Include="css\focus-mode-PCWorld.css" />
+    <None Include="css\focus-mode-Pocket-Read.css" />
+    <None Include="css\focus-mode-Pocket-Saves.css" />
+    <None Include="css\focus-mode-Quartz.css" />
+    <None Include="css\focus-mode-Quora.css" />
+    <None Include="css\focus-mode-Reuters.css" />
+    <None Include="css\focus-mode-Scientific-American.css" />
+    <None Include="css\focus-mode-Slashdot.css" />
+    <None Include="css\focus-mode-Stack-Exchange.css" />
+    <None Include="css\focus-mode-The-Fantasy-Review.css" />
+    <None Include="css\focus-mode-The-Guardian.css" />
+    <None Include="css\focus-mode-The-New-York-Times.css" />
+    <None Include="css\focus-mode-The-New-Yorker.css" />
+    <None Include="css\focus-mode-The-Register.css" />
+    <None Include="css\focus-mode-The-Washington-Post.css" />
+    <None Include="css\focus-mode-TPGi.css" />
+    <None Include="css\focus-mode-WikiBooks.css" />
+    <None Include="css\focus-mode-Wikipedia.css" />
+    <None Include="css\focus-mode-Word-Daily.css" />
+    <None Include="css\focus-mode-Word-Genius.css" />
+    <None Include="LICENSE" />
+    <None Include="manifest.json" />
+    <None Include="manifest.json.firefox" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\icon-128.png" />
+    <Image Include="images\icon-16.png" />
+    <Image Include="images\icon-32.png" />
+    <Image Include="images\icon-48.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-
   <Target Name="CreateChromeIntDir">
     <ItemGroup>
       <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\*.js" />
@@ -57,13 +113,11 @@
     <MakeDir Directories="$(ChromeIntDir)" Condition="!Exists('$(ChromeIntDir)')" />
     <Copy SourceFiles="@(ChromeSourceFiles)" DestinationFolder="$(ChromeIntDir)\%(RecursiveDir)" />
   </Target>
-
   <Target Name="CreateChromeZipFile">
     <MakeDir Directories="$(ChromeOutDir)" Condition="!Exists('$(ChromeOutDir)')" />
     <Delete Files="$(ChromeOutDir)\focus-mode-enhanced.zip" Condition="Exists('$(ChromeOutDir)\focus-mode-enhanced.zip')" />
     <ZipDirectory SourceDirectory="$(ChromeIntDir)" DestinationFile="$(ChromeOutDir)\focus-mode-enhanced.zip" />
   </Target>
-
   <Target Name="CreateFirefoxIntDir">
     <ItemGroup>
       <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\*.js" />
@@ -77,20 +131,14 @@
     <Copy SourceFiles="@(FirefoxSourceFiles)" DestinationFolder="$(FirefoxIntDir)\%(RecursiveDir)" />
     <Move SourceFiles="$(FirefoxIntDir)\manifest.json.firefox" DestinationFiles="$(FirefoxIntDir)\manifest.json" />
   </Target>
-
   <Target Name="CreateFirefoxZipFile">
     <MakeDir Directories="$(FirefoxOutDir)" Condition="!Exists('$(FirefoxOutDir)')" />
     <Delete Files="$(FirefoxOutDir)\focus-mode-enhanced.zip" Condition="Exists('$(FirefoxOutDir)\focus-mode-enhanced.zip')" />
     <ZipDirectory SourceDirectory="$(FirefoxIntDir)" DestinationFile="$(FirefoxOutDir)\focus-mode-enhanced.zip" />
   </Target>
-
   <Target Name="SubmitFirefoxExtensionForSigning">
-    <Exec
-      Condition="'$(focus-mode-enhanced-api-key)'!='' And '$(focus-mode-enhanced-api-secret)'!='' And '$(focus-mode-enhanced-channel)'!='' And Exists('$(WebExt)')"
-      Command="&quot;$(WebExt)&quot; sign --channel=$(focus-mode-enhanced-channel) --api-key=$(focus-mode-enhanced-api-key) --api-secret=$(focus-mode-enhanced-api-secret) --source-dir=$(FirefoxIntDir) --artifacts-dir=$(FirefoxOutDir)"
-      WorkingDirectory="$(FirefoxIntDir)" />
+    <Exec Condition="'$(focus-mode-enhanced-api-key)'!='' And '$(focus-mode-enhanced-api-secret)'!='' And '$(focus-mode-enhanced-channel)'!='' And Exists('$(WebExt)')" Command="&quot;$(WebExt)&quot; sign --channel=$(focus-mode-enhanced-channel) --api-key=$(focus-mode-enhanced-api-key) --api-secret=$(focus-mode-enhanced-api-secret) --source-dir=$(FirefoxIntDir) --artifacts-dir=$(FirefoxOutDir)" WorkingDirectory="$(FirefoxIntDir)" />
   </Target>
-
   <Target Name="Build">
     <CallTarget Targets="CreateChromeIntDir;CreateFirefoxIntDir;CreateChromeZipFile;CreateFirefoxZipFile;SubmitFirefoxExtensionForSigning" />
   </Target>

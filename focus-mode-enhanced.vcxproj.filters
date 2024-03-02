@@ -5,13 +5,185 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="CSS Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Documentation Files">
+      <UniqueIdentifier>{d198061c-1618-482b-83ec-9fa9f7420f9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="background.js">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="manifest.json">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="manifest.json.firefox">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="css\focus-mode-AccuWeather.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Ars-Technica.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Audible.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-C++-reference.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Chrome-Developers.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Chrome-Developers-Blog.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-CNET.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-CNN.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Code-Project.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Default.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Dictionary-And-Thesaurus.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Digg.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-EFF.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Extension-Workshop.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Freedom-Scientific.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-GitHub.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Gmail.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-HackADay.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-jQuery.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-MDN.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Medium.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Microsoft-Developer-Blogs.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Microsoft-Learn.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-MSN-News.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-NBC-News.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Neowin.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-PCWorld.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Pocket-Read.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Pocket-Saves.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Quartz.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Quora.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Reuters.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Scientific-American.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Slashdot.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Stack-Exchange.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-Fantasy-Review.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-Guardian.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-New-Yorker.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-New-York-Times.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-Register.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-Washington-Post.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-TPGi.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-WikiBooks.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Wikipedia.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Word-Daily.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Word-Genius.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="LICENSE">
+      <Filter>Documentation Files</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Documentation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\icon-16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon-32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon-48.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon-128.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
