@@ -12,6 +12,9 @@
     <RootNamespace>FocusModeEnhancedExtension</RootNamespace>
     <VCProjectVersion>17.0</VCProjectVersion>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WebExt>$(AppData)\npm\web-ext.cmd</WebExt>
+    <CanSubmitFirefoxExtensionForSigning Condition="'$(focus-mode-enhanced-api-key)'=='' Or '$(focus-mode-enhanced-api-secret)'=='' Or '$(focus-mode-enhanced-channel)'=='' Or !Exists('$(WebExt)')">false</CanSubmitFirefoxExtensionForSigning>
+    <CanSubmitFirefoxExtensionForSigning Condition="'$(focus-mode-enhanced-api-key)'!='' And '$(focus-mode-enhanced-api-secret)'!='' And '$(focus-mode-enhanced-channel)'!='' And Exists('$(WebExt)')">true</CanSubmitFirefoxExtensionForSigning>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -34,13 +37,11 @@
     <ChromeOutDir>$(OutDir)Chrome</ChromeOutDir>
     <FirefoxIntDir>$(IntDir)Firefox</FirefoxIntDir>
     <FirefoxOutDir>$(OutDir)Firefox</FirefoxOutDir>
-    <WebExt>$(AppData)\npm\web-ext.cmd</WebExt>
   </PropertyGroup>
   <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="background.js" />
     <None Include="css\focus-mode-AccuWeather.css" />
     <None Include="css\focus-mode-Ars-Technica.css" />
     <None Include="css\focus-mode-Audible.css" />
@@ -87,28 +88,29 @@
     <None Include="css\focus-mode-Wikipedia.css" />
     <None Include="css\focus-mode-Word-Daily.css" />
     <None Include="css\focus-mode-Word-Genius.css" />
+    <None Include="background.js" />
     <None Include="LICENSE" />
-    <None Include="manifest.json" />
     <None Include="manifest.json.firefox" />
+    <None Include="manifest.json" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="images\icon-128.png" />
     <Image Include="images\icon-16.png" />
     <Image Include="images\icon-32.png" />
     <Image Include="images\icon-48.png" />
+    <Image Include="images\icon-128.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <Target Name="CreateChromeIntDir">
     <ItemGroup>
+      <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\*.css" />
       <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\*.js" />
+      <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\*.png" />
       <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\LICENSE" />
       <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\manifest.json" />
       <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\README.md" />
-      <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\*.css" />
-      <ChromeSourceFiles Include="$(MSBuildProjectDirectory)\**\*.png" />
     </ItemGroup>
     <MakeDir Directories="$(ChromeIntDir)" Condition="!Exists('$(ChromeIntDir)')" />
     <Copy SourceFiles="@(ChromeSourceFiles)" DestinationFolder="$(ChromeIntDir)\%(RecursiveDir)" />
@@ -120,12 +122,12 @@
   </Target>
   <Target Name="CreateFirefoxIntDir">
     <ItemGroup>
+      <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\*.css" />
       <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\*.js" />
+      <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\*.png" />
       <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\LICENSE" />
       <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\manifest.json.firefox" />
       <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\README.md" />
-      <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\*.css" />
-      <FirefoxSourceFiles Include="$(MSBuildProjectDirectory)\**\*.png" />
     </ItemGroup>
     <MakeDir Directories="$(FirefoxIntDir)" Condition="!Exists('$(FirefoxIntDir)')" />
     <Copy SourceFiles="@(FirefoxSourceFiles)" DestinationFolder="$(FirefoxIntDir)\%(RecursiveDir)" />
@@ -137,7 +139,14 @@
     <ZipDirectory SourceDirectory="$(FirefoxIntDir)" DestinationFile="$(FirefoxOutDir)\focus-mode-enhanced.zip" />
   </Target>
   <Target Name="SubmitFirefoxExtensionForSigning">
-    <Exec Condition="'$(focus-mode-enhanced-api-key)'!='' And '$(focus-mode-enhanced-api-secret)'!='' And '$(focus-mode-enhanced-channel)'!='' And Exists('$(WebExt)')" Command="&quot;$(WebExt)&quot; sign --channel=$(focus-mode-enhanced-channel) --api-key=$(focus-mode-enhanced-api-key) --api-secret=$(focus-mode-enhanced-api-secret) --source-dir=$(FirefoxIntDir) --artifacts-dir=$(FirefoxOutDir)" WorkingDirectory="$(FirefoxIntDir)" />
+    <Message Text="CanSubmitFirefoxExtensionForSigning: '$(CanSubmitFirefoxExtensionForSigning)'" Importance="high" />
+    <Message Text="focus-mode-enhanced-api-key: '$(focus-mode-enhanced-api-key)'" Importance="high" />
+    <Message Text="focus-mode-enhanced-api-secret: '$(focus-mode-enhanced-api-secret)'" Importance="high" />
+    <Message Text="focus-mode-enhanced-channel: '$(focus-mode-enhanced-channel)'" Importance="high" />
+    <Exec
+      Condition="'$(CanSubmitFirefoxExtensionForSigning)'=='true'"
+      Command="&quot;$(WebExt)&quot; sign --channel=$(focus-mode-enhanced-channel) --api-key=$(focus-mode-enhanced-api-key) --api-secret=$(focus-mode-enhanced-api-secret) --source-dir=$(FirefoxIntDir) --artifacts-dir=$(FirefoxOutDir)"
+      WorkingDirectory="$(FirefoxIntDir)" />
   </Target>
   <Target Name="Build">
     <CallTarget Targets="CreateChromeIntDir;CreateFirefoxIntDir;CreateChromeZipFile;CreateFirefoxZipFile;SubmitFirefoxExtensionForSigning" />

@@ -3,30 +3,18 @@
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="CSS Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Documentation Files">
       <UniqueIdentifier>{d198061c-1618-482b-83ec-9fa9f7420f9d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="background.js">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="manifest.json">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="manifest.json.firefox">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="css\focus-mode-AccuWeather.css">
       <Filter>CSS Files</Filter>
     </None>
@@ -165,8 +153,17 @@
     <None Include="css\focus-mode-Word-Genius.css">
       <Filter>CSS Files</Filter>
     </None>
+    <None Include="background.js">
+      <Filter>Source Files</Filter>
+    </None>
     <None Include="LICENSE">
       <Filter>Documentation Files</Filter>
+    </None>
+    <None Include="manifest.json">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="manifest.json.firefox">
+      <Filter>Source Files</Filter>
     </None>
     <None Include="README.md">
       <Filter>Documentation Files</Filter>

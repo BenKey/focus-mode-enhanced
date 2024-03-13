@@ -19,12 +19,14 @@ limitations under the License.
 .hide-for-print,
 .print-hidden,
 aside[class*="sidebar-right"],
+aside[class*="promo"],
 div.Ad__topBanner,
 div.Ad,
 div.block-fusion-ads,
 div.navbar,
 div.page-sidebar,
 div.teads-player,
+div[class*="_ad"],
 div[class*="-ad-"],
 div[class*="conversation"],
 div[class*="fairness"],
@@ -43,6 +45,7 @@ iframe[id*="teads-native-iframe"],
 nav,
 section.topics-list,
 section[class*="fairness"],
-section[class*="newsletter"] {
+section[class*="newsletter"],
+section[id*="head"] {
   display: none !important;
 }

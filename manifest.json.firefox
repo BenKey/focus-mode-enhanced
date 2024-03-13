@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Focus Mode Enhanced",
-  "version": "4.3",
+  "version": "4.4",
 
   "description": "Enable focus mode on several websites.",
   "icons": {
@@ -25,7 +25,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "{EF6D00C3-68E7-4CA8-9158-A0D0C8D0B4CA}"
+      "id": "{AB6DD681-B566-4967-AD0F-D5948336E17F}"
     }
   },
   "commands": {
