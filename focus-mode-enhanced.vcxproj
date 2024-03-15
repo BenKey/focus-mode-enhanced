@@ -13,8 +13,9 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <WebExt>$(AppData)\npm\web-ext.cmd</WebExt>
+    <FocusModeEnhancedEnableSubmitFirefoxExtensionForSigning Condition="'$(FocusModeEnhancedEnableSubmitFirefoxExtensionForSigning)'==''">false</FocusModeEnhancedEnableSubmitFirefoxExtensionForSigning>
     <CanSubmitFirefoxExtensionForSigning Condition="'$(focus-mode-enhanced-api-key)'=='' Or '$(focus-mode-enhanced-api-secret)'=='' Or '$(focus-mode-enhanced-channel)'=='' Or !Exists('$(WebExt)')">false</CanSubmitFirefoxExtensionForSigning>
-    <CanSubmitFirefoxExtensionForSigning Condition="'$(focus-mode-enhanced-api-key)'!='' And '$(focus-mode-enhanced-api-secret)'!='' And '$(focus-mode-enhanced-channel)'!='' And Exists('$(WebExt)')">true</CanSubmitFirefoxExtensionForSigning>
+    <CanSubmitFirefoxExtensionForSigning Condition="'$(FocusModeEnhancedEnableSubmitFirefoxExtensionForSigning)'=='true' And '$(focus-mode-enhanced-api-key)'!='' And '$(focus-mode-enhanced-api-secret)'!='' And '$(focus-mode-enhanced-channel)'!='' And Exists('$(WebExt)')">true</CanSubmitFirefoxExtensionForSigning>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">

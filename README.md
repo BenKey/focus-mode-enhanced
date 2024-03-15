@@ -19,6 +19,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
 * [Audible][45]
+* [Boston Globe][51]
 * [Chrome Developers Blog][29]
 * [Gmail][32]
 * [Code Project][36]
@@ -126,3 +127,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [48]: <https://getpocket.com/saves>
 [49]: <https://getpocket.com/read>
 [50]: <https://www.msn.com/en-us/news/>
+[51]: <https://www.bostonglobe.com/>
