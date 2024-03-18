@@ -163,6 +163,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-TPGi.css': [
     'https://www.tpgi.com/'
   ],
+  'css/focus-mode-Vox.css': [
+    'https://www.vox.com/'
+  ],
   'css/focus-mode-WikiBooks.css': [
     'https://en.wikibooks.org/wiki/'
   ],

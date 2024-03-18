@@ -67,6 +67,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [The Washington Post][16]
 * [thesaurus.com][43]
 * [TPGi][17]
+* [Vox][52]
 * [WikiBooks][31]
 * [Wikipedia][30]
 * [Word Daily][37]
@@ -128,3 +129,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [49]: <https://getpocket.com/read>
 [50]: <https://www.msn.com/en-us/news/>
 [51]: <https://www.bostonglobe.com/>
+[52]: <https://www.vox.com/>
