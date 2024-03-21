@@ -20,6 +20,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * [Audible][45]
 * [Boston Globe][51]
+* [CBS News][53]
 * [Chrome Developers Blog][29]
 * [Gmail][32]
 * [Code Project][36]
@@ -130,3 +131,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [50]: <https://www.msn.com/en-us/news/>
 [51]: <https://www.bostonglobe.com/>
 [52]: <https://www.vox.com/>
+[53]: <https://www.cbsnews.com/>

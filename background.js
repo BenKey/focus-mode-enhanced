@@ -29,6 +29,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Boston-Globe.css': [
     'https://www.bostonglobe.com/'
   ],
+  'css/focus-mode-CBS-News.css': [
+    'https://www.cbsnews.com/'
+  ],
   'css/focus-mode-Chrome-Developers.css': [
     'https://developer.chrome.com/docs/devtools',
     'https://developer.chrome.com/docs/extensions',
