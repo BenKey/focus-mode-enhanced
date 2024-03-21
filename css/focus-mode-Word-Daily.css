@@ -15,9 +15,11 @@ limitations under the License.
 */
 
 div.brand-slider,
-div.word-advertisement-container,
 div.word-popular-recent-container,
 div.word-single-sidebar-wrap,
+div[class*="advertisement"],
+div[class*="newsletter"],
+div[class*="social"],
 div#adb-dt-footer-container,
 footer.site-footer,
 header.site-header {
