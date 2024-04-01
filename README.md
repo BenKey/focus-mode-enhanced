@@ -37,6 +37,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [GitHub][7]
 * [HackADay][8]
 * [jQuery][9]
+* [LGBTQ Nation][55]
 * [MDN][10]
 * [Medium][20] and similar websites.
 
@@ -134,3 +135,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [52]: <https://www.vox.com/>
 [53]: <https://www.cbsnews.com/>
 [54]: <https://newrepublic.com/>
+[55]: <https://www.lgbtqnation.com/>

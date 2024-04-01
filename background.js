@@ -87,6 +87,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-jQuery.css': [
     'https://api.jquery.com'
   ],
+  'css/focus-mode-LGBTQ-Nation.css': [
+    'https://www.lgbtqnation.com/'
+  ],
   'css/focus-mode-MDN.css': [
     'https://developer.mozilla.org/en-US/docs/'
   ],
