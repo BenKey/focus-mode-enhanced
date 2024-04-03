@@ -181,6 +181,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Wikipedia.css': [
     'https://en.wikipedia.org/wiki/'
   ],
+  'css/focus-mode-Wired.css': [
+    'https://www.wired.com/'
+  ],
   'css/focus-mode-Word-Daily.css': [
     'https://worddaily.com/'
   ],

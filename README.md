@@ -73,6 +73,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Vox][52]
 * [WikiBooks][31]
 * [Wikipedia][30]
+* [Wired][56]
 * [Word Daily][37]
 * [Word Genius][38]
 
@@ -136,3 +137,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [53]: <https://www.cbsnews.com/>
 [54]: <https://newrepublic.com/>
 [55]: <https://www.lgbtqnation.com/>
+[56]: <https://www.wired.com/>
