@@ -46,6 +46,7 @@
     <None Include="css\focus-mode-AccuWeather.css" />
     <None Include="css\focus-mode-Ars-Technica.css" />
     <None Include="css\focus-mode-Audible.css" />
+    <None Include="css\focus-mode-Boston-Globe.css" />
     <None Include="css\focus-mode-C++-reference.css" />
     <None Include="css\focus-mode-Chrome-Developers-Blog.css" />
     <None Include="css\focus-mode-Chrome-Developers.css" />
@@ -62,6 +63,7 @@
     <None Include="css\focus-mode-Gmail.css" />
     <None Include="css\focus-mode-HackADay.css" />
     <None Include="css\focus-mode-jQuery.css" />
+    <None Include="css\focus-mode-LGBTQ-Nation.css" />
     <None Include="css\focus-mode-MDN.css" />
     <None Include="css\focus-mode-Medium.css" />
     <None Include="css\focus-mode-Microsoft-Developer-Blogs.css" />
@@ -80,13 +82,16 @@
     <None Include="css\focus-mode-Stack-Exchange.css" />
     <None Include="css\focus-mode-The-Fantasy-Review.css" />
     <None Include="css\focus-mode-The-Guardian.css" />
+    <None Include="css\focus-mode-The-New-Republic.css" />
     <None Include="css\focus-mode-The-New-York-Times.css" />
     <None Include="css\focus-mode-The-New-Yorker.css" />
     <None Include="css\focus-mode-The-Register.css" />
     <None Include="css\focus-mode-The-Washington-Post.css" />
     <None Include="css\focus-mode-TPGi.css" />
+    <None Include="css\focus-mode-Vox.css" />
     <None Include="css\focus-mode-WikiBooks.css" />
     <None Include="css\focus-mode-Wikipedia.css" />
+    <None Include="css\focus-mode-Wired.css" />
     <None Include="css\focus-mode-Word-Daily.css" />
     <None Include="css\focus-mode-Word-Genius.css" />
     <None Include="background.js" />
@@ -144,10 +149,7 @@
     <Message Text="focus-mode-enhanced-api-key: '$(focus-mode-enhanced-api-key)'" Importance="high" />
     <Message Text="focus-mode-enhanced-api-secret: '$(focus-mode-enhanced-api-secret)'" Importance="high" />
     <Message Text="focus-mode-enhanced-channel: '$(focus-mode-enhanced-channel)'" Importance="high" />
-    <Exec
-      Condition="'$(CanSubmitFirefoxExtensionForSigning)'=='true'"
-      Command="&quot;$(WebExt)&quot; sign --channel=$(focus-mode-enhanced-channel) --api-key=$(focus-mode-enhanced-api-key) --api-secret=$(focus-mode-enhanced-api-secret) --source-dir=$(FirefoxIntDir) --artifacts-dir=$(FirefoxOutDir)"
-      WorkingDirectory="$(FirefoxIntDir)" />
+    <Exec Condition="'$(CanSubmitFirefoxExtensionForSigning)'=='true'" Command="&quot;$(WebExt)&quot; sign --channel=$(focus-mode-enhanced-channel) --api-key=$(focus-mode-enhanced-api-key) --api-secret=$(focus-mode-enhanced-api-secret) --source-dir=$(FirefoxIntDir) --artifacts-dir=$(FirefoxOutDir)" WorkingDirectory="$(FirefoxIntDir)" />
   </Target>
   <Target Name="Build">
     <CallTarget Targets="CreateChromeIntDir;CreateFirefoxIntDir;CreateChromeZipFile;CreateFirefoxZipFile;SubmitFirefoxExtensionForSigning" />

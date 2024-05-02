@@ -168,6 +168,21 @@
     <None Include="README.md">
       <Filter>Documentation Files</Filter>
     </None>
+    <None Include="css\focus-mode-Boston-Globe.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-LGBTQ-Nation.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-The-New-Republic.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Vox.css">
+      <Filter>CSS Files</Filter>
+    </None>
+    <None Include="css\focus-mode-Wired.css">
+      <Filter>CSS Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\icon-16.png">
