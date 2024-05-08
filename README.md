@@ -19,6 +19,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
 * [Audible][45]
+* [Azure DevOps][57]
 * [Boston Globe][51]
 * [CBS News][53]
 * [Chrome Developers Blog][29]
@@ -138,3 +139,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [54]: <https://newrepublic.com/>
 [55]: <https://www.lgbtqnation.com/>
 [56]: <https://www.wired.com/>
+[57]: <https://dev.azure.com/>
