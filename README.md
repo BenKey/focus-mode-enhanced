@@ -20,6 +20,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 
 * [Audible][45]
 * [Azure DevOps][57]
+* [Boost][58]
 * [Boston Globe][51]
 * [CBS News][53]
 * [Chrome Developers Blog][29]
@@ -140,3 +141,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [55]: <https://www.lgbtqnation.com/>
 [56]: <https://www.wired.com/>
 [57]: <https://dev.azure.com/>
+[58]: <https://www.boost.org/>

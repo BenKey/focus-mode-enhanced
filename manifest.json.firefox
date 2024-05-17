@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Focus Mode Enhanced",
-  "version": "4.18",
+  "version": "4.19",
 
   "description": "Enable focus mode on several websites.",
   "icons": {

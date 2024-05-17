@@ -29,6 +29,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Azure-DevOps.css': [
     'https://dev.azure.com/'
   ],
+  'css/focus-mode-Boost.css': [
+    'https://www.boost.org/'
+  ],
   'css/focus-mode-Boston-Globe.css': [
     'https://www.bostonglobe.com/'
   ],
