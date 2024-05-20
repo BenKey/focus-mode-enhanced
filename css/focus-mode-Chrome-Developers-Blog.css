@@ -14,12 +14,18 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#main-content > announcement-banner,
-body > .scaffold > :is(announcement-banner, footer, navigation-rail, side-nav, top-nav),
-body > announcement-banner,
-body > iframe,
-div.post-navigation,
-div.title-bar,
-div.toc-container {
+.devsite-footer,
+devsite-content-footer.nocontent,
+devsite-feature-tooltip,
+devsite-header[role="banner"],
+devsite-thumb-rating,
+div.dcc-author,
+div.dcc-authors,
+div.nocontent,
+div[class*="devsite-collapsible-section"],
+div[class*="devsite-header"],
+div[class*="devsite-sidebar"],
+div[class*="devsite-top-logo"]
+{
   display: none !important;
 }
