@@ -18,6 +18,9 @@ limitations under the License.
 .footer,
 .Layout-sidebar,
 .mb-3,
-#repository-container-header {
+[aria-labelledby="folders-and-files"],
+#folders-and-files,
+#repository-container-header
+{
   display: none !important;
 }
