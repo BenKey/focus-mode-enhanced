@@ -59,6 +59,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Pocket Saves][48]
 * [Quartz][13]
 * [Quora][22]
+* [reddit][59]
 * [Reuters][46]
 * [Scientific American][26]
 * [Slashdot][28] (Includes subdomains)
@@ -142,3 +143,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [56]: <https://www.wired.com/>
 [57]: <https://dev.azure.com/>
 [58]: <https://www.boost.org/>
+[59]: <https://www.reddit.com/>
