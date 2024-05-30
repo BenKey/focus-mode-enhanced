@@ -15,6 +15,8 @@ limitations under the License.
 */
 
 .ad,
+.css-1ichrj1,
+.css-wmyc1,
 .live-blog-above-main-content,
 .NYTAppHideMasthead,
 .related-links-block,
@@ -59,10 +61,13 @@ limitations under the License.
 #story-ad-9-wrapper,
 #top-wrapper,
 aside,
+div[data-testid="masthead-container"],
 div[data-testid="StandardAd"],
 div[role="toolbar"],
+div#google-one-tap-container,
 footer[role="contentinfo"],
 section[data-testid="recirculation"],
-section[role="complementary"] {
+section[role="complementary"]
+{
   display: none !important;
 }
