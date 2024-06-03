@@ -18,6 +18,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
    - [Web on Android](https://developer.chrome.com/docs/android/)
    - [Workbox](https://developer.chrome.com/docs/workbox)
 
+* [Associated Press News][60]
 * [Audible][45]
 * [Azure DevOps][57]
 * [Boost][58]
@@ -144,3 +145,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [57]: <https://dev.azure.com/>
 [58]: <https://www.boost.org/>
 [59]: <https://www.reddit.com/>
+[60]: <https://apnews.com/>

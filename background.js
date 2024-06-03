@@ -23,6 +23,9 @@ if (typeof browser == "undefined") {
 }
 
 const StylesheetToSupportWebsitesJSON = {
+  'css/focus-mode-Associated-Press-News.css': [
+    'https://apnews.com/'
+  ],
   'css/focus-mode-Audible.css': [
     'https://www.audible.com/'
   ],
