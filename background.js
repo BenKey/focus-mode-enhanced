@@ -253,7 +253,7 @@ function Matches(url, test) {
 }
 
 function GetStylesheet(url) {
-  if (StringIsNullOrEmpty(url)) {
+  if (StringIsNullOrEmpty(url) || url.startsWith("chrome://")) {
     return '';
   }
   let foundStylesheet = 'css/focus-mode-Default.css';
