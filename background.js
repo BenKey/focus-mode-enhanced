@@ -74,6 +74,9 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-CNET.css': [
     'https://www.cnet.com/'
   ],
+  'css/focus-mode-DEV-community.css': [
+    'https://dev.to/'
+  ],
   'css/focus-mode-Dictionary-And-Thesaurus.css': [
     'https://www.dictionary.com/',
     'https://www.thesaurus.com/'

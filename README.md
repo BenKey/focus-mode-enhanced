@@ -25,6 +25,7 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [Boston Globe][51]
 * [CBS News][53]
 * [Chrome Developers Blog][29]
+* [DEV community][61]
 * [Gmail][32]
 * [Code Project][36]
 * [AccuWeather][27]
@@ -146,3 +147,4 @@ This extension licensed under the [Apache License Version 2.0][18].
 [58]: <https://www.boost.org/>
 [59]: <https://www.reddit.com/>
 [60]: <https://apnews.com/>
+[61]: <https://dev.to/>
