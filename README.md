@@ -56,6 +56,19 @@ The purpose of this extension is to hide extraneous elements on a web page that 
 * [MSN News][50]
 * [NBC News][39]
 * [Neowin][33]
+* [Net Tutorials][62]
+
+   - [AJAX.NET Tutorial][63]
+   - [ASP.NET MVC Tutorial][64]
+   - [ASP.NET WebForms Tutorial][65]
+   - [C# Tutorial][66]
+   - [CSS3 Tutorial][67]
+   - [HTML5 Tutorial][68]
+   - [JavaScript Tutorial][69]
+   - [jQuery Tutorial][70]
+   - [PHP5 Tutorial][71]
+   - [WPF Tutorial][72]
+
 * [PCWorld][40]
 * [Pocket Read][49]
 * [Pocket Saves][48]
@@ -148,3 +161,14 @@ This extension licensed under the [Apache License Version 2.0][18].
 [59]: <https://www.reddit.com/>
 [60]: <https://apnews.com/>
 [61]: <https://dev.to/>
+[62]: <https://net-tutorials.com/>
+[63]: <http://ajax.net-tutorials.com/>
+[64]: <http://asp.mvc-tutorial.com/>
+[65]: <http://asp.net-tutorials.com/>
+[66]: <http://csharp.net-tutorials.com/>
+[67]: <http://css3-tutorial.net/>
+[68]: <http://html5-tutorial.net/>
+[69]: <http://javascript-tutorial.com/>
+[70]: <http://jquery-tutorial.net/>
+[71]: <http://php5-tutorial.com/>
+[72]: <http://wpf-tutorial.com/>

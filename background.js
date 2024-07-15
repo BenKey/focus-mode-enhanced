@@ -128,6 +128,19 @@ const StylesheetToSupportWebsitesJSON = {
   'css/focus-mode-Neowin.css': [
     'https://www.neowin.net/'
   ],
+  'css/focus-mode-Net-Tutorials.css': [
+    'https://net-tutorials.com/',
+    'https://ajax.net-tutorials.com/',
+    'https://asp.mvc-tutorial.com/',
+    'https://asp.net-tutorials.com/',
+    'https://csharp.net-tutorials.com/',
+    'https://css3-tutorial.net/',
+    'https://html5-tutorial.net/',
+    'https://javascript-tutorial.com/',
+    'https://jquery-tutorial.net/',
+    'https://php5-tutorial.com/',
+    'https://wpf-tutorial.com/'
+  ],
   'css/focus-mode-PCWorld.css': [
     'https://www.pcworld.com/article/'
   ],
