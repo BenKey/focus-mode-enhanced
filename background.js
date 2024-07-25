@@ -158,7 +158,8 @@ const StylesheetToSupportWebsitesJSON = {
     /https:\/\/.*\.quora\.com\//
   ],
   'css/focus-mode-Reddit.css': [
-    'https://www.reddit.com/'
+    'https://www.reddit.com/',
+    'https://new.reddit.com/',
   ],
   'css/focus-mode-Reuters.css': [
     'https://www.reuters.com/'
