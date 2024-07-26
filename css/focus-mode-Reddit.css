@@ -14,11 +14,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-div[class*="subredditvars-r"] header,
+div[class*="subredditvars-r"] > header,
+div[data-testid="frontpage-sidebar"],
 div[data-testid="subreddit-sidebar"],
+div[role="menu"],
+div#AppRouter-main-content > div[data-redditstyle="true"],
 div#left-sidebar-container,
 div#right-sidebar-container,
-reddit-header-action-items header,
+header[data-redditstyle="true"],
+reddit-header-action-items > header,
 reddit-sidebar-nav
 {
   display: none !important;
