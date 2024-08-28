@@ -15,7 +15,8 @@ limitations under the License.
 */
 
 div.navigation-container.flex-column,
-div.project-header
+div.project-header,
+div.report-widget-host-container.flex-column
 {
   display: none !important;
 }
