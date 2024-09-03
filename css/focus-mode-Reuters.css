@@ -15,10 +15,12 @@ limitations under the License.
 */
 
 div[class*="article__read-next"],
+div[class*="dianomi_context"],
 div[class*="refinitiv-promo-bar__container"],
 div[class*="regular-article-layout__footer-container"],
 div[class*="regular-article-layout__related"],
 div[class*="regular-article-layout__right-rail"],
+div[data-testid="Dianomi"],
 div[data-testid="Leaderboard"],
 div[data-testid="ResponsiveAdSlot"],
 header[data-testid="SiteHeader"] {
