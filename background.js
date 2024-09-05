@@ -173,6 +173,7 @@ const StylesheetToSupportWebsitesJSON = {
   ],
   'css/focus-mode-Stack-Exchange.css': [
     'https://askubuntu.com/',
+    'https://stackoverflow.blog/',
     'https://stackoverflow.com/',
     'https://superuser.com/',
     /https:\/\/.*\.stackexchange.com\//

@@ -14,13 +14,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+aside.ml48,
 div.left-sidebar,
+div.mr48,
 div.show-votes,
 div#sidebar,
 footer.js-footer,
 footer.site-footer,
+footer#footer-global,
 header.js-top-bar,
 header.s-topbar,
-header.site-header {
+header.site-header,
+section#comments {
   display: none !important;
 }
