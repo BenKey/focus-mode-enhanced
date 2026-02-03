@@ -1,5 +1,5 @@
 /*
-Copyright 2024 - 2025 Ben Key
+Copyright 2024 - 2026 Ben Key
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -35,6 +35,7 @@ div[class*="conversation"],
 div[class*="fairness"],
 div[class*="footer"],
 div[class*="hidden"],
+div[class*="humix-"],
 div[class*="ibtmedia"],
 div[class*="invisible"],
 div[class*="navbar"],
@@ -72,7 +73,8 @@ section[class*="fairness"],
 section[class*="newsletter"],
 section[class*="popular-pages"],
 section[class*="print-none"],
-section[id*="head"]
+section[id*="head"],
+span[class*="humix-"]
 {
   display: none !important;
 }
