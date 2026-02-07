@@ -1,0 +1,6 @@
+/home/benilda-key/git/BenKey/focus-mode-enhanced/build/CMakeFiles/chrome_assets.dir
+/home/benilda-key/git/BenKey/focus-mode-enhanced/build/CMakeFiles/package_chrome_extension.dir
+/home/benilda-key/git/BenKey/focus-mode-enhanced/build/CMakeFiles/firefox_assets.dir
+/home/benilda-key/git/BenKey/focus-mode-enhanced/build/CMakeFiles/package_firefox_extension.dir
+/home/benilda-key/git/BenKey/focus-mode-enhanced/build/CMakeFiles/edit_cache.dir
+/home/benilda-key/git/BenKey/focus-mode-enhanced/build/CMakeFiles/rebuild_cache.dir

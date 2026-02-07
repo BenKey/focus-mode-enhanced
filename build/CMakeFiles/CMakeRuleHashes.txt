@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+2b53412f3d2efa7dc6f35bbaa5d9bcaf CMakeFiles/chrome_assets
+2b53412f3d2efa7dc6f35bbaa5d9bcaf CMakeFiles/firefox_assets
+d9d254a319a3af7c891f71e90f901c6b CMakeFiles/package_chrome_extension
+5ad8e9457522bb4e9af75d112ae1773e CMakeFiles/package_firefox_extension
+11ab4fd78b9c8e368de68b4c5f4fd802 chrome/.chrome_assets.stamp
+42a763f4b2730991667ab98285ad270f firefox/.firefox_assets.stamp

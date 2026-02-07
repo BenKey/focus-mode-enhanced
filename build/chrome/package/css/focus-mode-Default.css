@@ -1,0 +1,80 @@
+/*
+Copyright 2024 - 2026 Ben Key
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+.dn-print,
+.hidden-print,
+.hide-for-print,
+.print-hidden,
+aside[class*="promo"],
+aside[class*="sidebar"],
+div.Ad__topBanner,
+div.Ad,
+div.block-fusion-ads,
+div.gpt-ad,
+div.navbar,
+div.nocontent,
+div.teads-player,
+div[class*="_ad"],
+div[class*="-ad-"],
+div[class*="ad-slot"],
+div[class*="ads-container"],
+div[class*="conversation"],
+div[class*="fairness"],
+div[class*="footer"],
+div[class*="hidden"],
+div[class*="humix-"],
+div[class*="ibtmedia"],
+div[class*="invisible"],
+div[class*="navbar"],
+div[class*="print-none"],
+div[class*="promo"],
+div[class*="read-more"],
+div[class*="related_container"],
+div[class*="relatedLink"],
+div[class*="share"],
+div[class*="sidebar"],
+div[class*="social"],
+div[class*="subscription"],
+div[class*="topbar"],
+div[data-google-query-id]:not([data-google-query-id=""]),
+div[id*="banner"],
+div[id*="google_ads_iframe"],
+div[id*="soc-panel"],
+div[id*="social"],
+div[id*="WikiaAd"],
+div[role="contentinfo"],
+div[role="navigation"],
+footer,
+header.site-header,
+header[role="banner"],
+iframe[id*="google_ads_iframe"],
+iframe[id*="teads-native-iframe"],
+ins.adsbygoogle div,
+ins.adsbygoogle span,
+ins.adsbygoogle,
+nav,
+section.news-related,
+section.topics-list,
+section[class*="ads"],
+section[class*="fairness"],
+section[class*="newsletter"],
+section[class*="popular-pages"],
+section[class*="print-none"],
+section[id*="head"],
+span[class*="humix-"]
+{
+  display: none !important;
+}
