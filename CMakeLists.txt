@@ -30,7 +30,7 @@ add_custom_command(
 add_custom_target(chrome_assets ALL DEPENDS "${CHROME_ASSETS_STAMP}")
 
 add_custom_target(package_chrome_extension ALL
-	DEPENDS ${CHROME_PACKAGE_DIR}/manifest.json
+	DEPENDS "${CHROME_ASSETS_STAMP}"
 	COMMAND ${CMAKE_COMMAND} -E tar "cfv" ${CHROME_ZIP_FILE} --format=zip -- .
 	WORKING_DIRECTORY ${CHROME_PACKAGE_DIR}
 	COMMENT "Creating ZIP archive: ${CHROME_ZIP_FILE}")
@@ -58,13 +58,13 @@ add_custom_command(
 	COMMAND ${CMAKE_COMMAND} -E touch "${FIREFOX_ASSETS_STAMP}"
 	DEPENDS
 		"${CMAKE_CURRENT_SOURCE_DIR}/background.js"
-		"${CMAKE_CURRENT_SOURCE_DIR}/manifest.json"
+		"${CMAKE_CURRENT_SOURCE_DIR}/manifest.json.firefox"
 	COMMENT "Copy Firefox extension assets to package/firefox")
 
 add_custom_target(firefox_assets ALL DEPENDS "${FIREFOX_ASSETS_STAMP}")
 
 add_custom_target(package_firefox_extension ALL
-	DEPENDS ${FIREFOX_PACKAGE_DIR}/manifest.json
+	DEPENDS "${FIREFOX_ASSETS_STAMP}"
 	COMMAND ${CMAKE_COMMAND} -E tar "cfv" ${FIREFOX_ZIP_FILE} --format=zip -- .
 	WORKING_DIRECTORY ${FIREFOX_PACKAGE_DIR}
 	COMMENT "Creating ZIP archive: ${FIREFOX_ZIP_FILE}")

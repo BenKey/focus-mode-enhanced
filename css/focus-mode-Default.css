@@ -27,6 +27,7 @@ div.gpt-ad,
 div.navbar,
 div.nocontent,
 div.teads-player,
+div[class="ezoic-ad"],
 div[class*="_ad"],
 div[class*="-ad-"],
 div[class*="ad-slot"],
@@ -74,6 +75,7 @@ section[class*="newsletter"],
 section[class*="popular-pages"],
 section[class*="print-none"],
 section[id*="head"],
+span[class="ezoic-ad"],
 span[class*="humix-"]
 {
   display: none !important;
