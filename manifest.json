@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Focus Mode Enhanced",
-  "version": "4.38",
+  "version": "4.39",
 
   "description": "Enable focus mode on several websites.",
   "icons": {
@@ -19,16 +19,16 @@
       "128": "images/icon-128.png"
     }
   },
-  "author": "ben.key@yekneb.com",
+  "author": "benilda.key@yekneb.com",
   "background": {
     "service_worker": "background.js"
   },
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Ctrl+B",
-        "mac": "Command+B"
-      }
+        "default": "Alt+Shift+F"
+      },
+      "description": "Toggle focus mode"
     }
   },
   "homepage_url": "https://github.com/BenKey/focus-mode-enhanced",

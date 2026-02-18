@@ -1,5 +1,5 @@
 /*
-Copyright 2024 - 2026 Ben Key
+Copyright 2024 - 2026 Benilda Key
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -25,6 +25,7 @@ div.Ad,
 div.block-fusion-ads,
 div.gpt-ad,
 div.navbar,
+div.nexstar-video.video-float,
 div.nocontent,
 div.teads-player,
 div[class="ezoic-ad"],
@@ -35,7 +36,6 @@ div[class*="ads-container"],
 div[class*="conversation"],
 div[class*="fairness"],
 div[class*="footer"],
-div[class*="hidden"],
 div[class*="humix-"],
 div[class*="ibtmedia"],
 div[class*="invisible"],
@@ -50,6 +50,7 @@ div[class*="sidebar"],
 div[class*="social"],
 div[class*="subscription"],
 div[class*="topbar"],
+div[class="nexstar-minutemedia-player-container"],
 div[data-google-query-id]:not([data-google-query-id=""]),
 div[id*="banner"],
 div[id*="google_ads_iframe"],
@@ -74,6 +75,7 @@ section[class*="fairness"],
 section[class*="newsletter"],
 section[class*="popular-pages"],
 section[class*="print-none"],
+section[class="extended-scroll"],
 section[id*="head"],
 span[class="ezoic-ad"],
 span[class*="humix-"]
