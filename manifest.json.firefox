@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Focus Mode Enhanced",
-  "version": "4.41",
+  "version": "4.42",
 
   "description": "Enable focus mode on several websites.",
   "icons": {
@@ -29,7 +29,7 @@
       "data_collection_permissions": {
         "required": ["none"]
       },
-      "strict_min_version": "109.0"
+      "strict_min_version": "140.0"
     }
   },
   "commands": {
